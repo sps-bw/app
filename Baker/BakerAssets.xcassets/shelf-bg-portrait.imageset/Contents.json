@@ -17,14 +17,19 @@
       "scale" : "2x"
     },
     {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "filename" : "shelf-bg-portrait@3x~iphone.png"
+    },
+    {
       "idiom" : "ipad",
       "scale" : "1x",
-      "filename" : "shelf-bg-portrait~ipad.png"
+      "filename" : "iPad-Portrait-iOS7x.png"
     },
     {
       "idiom" : "ipad",
       "scale" : "2x",
-      "filename" : "shelf-bg-portrait@2x~ipad.png"
+      "filename" : "iPad-Portrait-iOS7@2x-1.png"
     }
   ],
   "info" : {

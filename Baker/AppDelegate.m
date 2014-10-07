@@ -71,6 +71,8 @@
 {
 
     #ifdef BAKER_NEWSSTAND
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 
     NSLog(@"====== Baker Newsstand Mode enabled ======");
     [BakerAPI generateUUIDOnce];

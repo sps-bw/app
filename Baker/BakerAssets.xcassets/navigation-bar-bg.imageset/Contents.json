@@ -1,14 +1,29 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "1x",
-      "filename" : "navigation-bar-bg.png"
+      "filename" : "navigation-bar-bg-iphone.png"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "2x",
-      "filename" : "navigation-bar-bg@2x.png"
+      "filename" : "navigation-bar-bg-iphone@2x.png"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "filename" : "navigation-bar-bg-iphone@3x.png"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "filename" : "navigation-bar-bg-ipad-portrait.png"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "filename" : "navigation-bar-bg-ipad-portrait@2x.png"
     }
   ],
   "info" : {

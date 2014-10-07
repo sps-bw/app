@@ -3,12 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "newsstand-app-icon.png"
+      "filename" : "Newsstand.jpg"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "newsstand-app-icon@2x.png"
+      "filename" : "Newsstand@2x.jpg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "Newsstand@3x.jpg"
     }
   ],
   "info" : {

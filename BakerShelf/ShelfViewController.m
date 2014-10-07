@@ -147,6 +147,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 
     self.navigationItem.title = NSLocalizedString(@"SHELF_NAVIGATION_TITLE", nil);
 

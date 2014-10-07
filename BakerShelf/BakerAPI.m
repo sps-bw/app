@@ -179,7 +179,7 @@
     if ([method isEqualToString:@"GET"]) {
         NSString *queryString = [self queryStringFromParameters:requestParams];
         requestURL = [requestURL URLByAppendingQueryString:queryString];
-        request = [NSURLRequest requestWithURL:requestURL cachePolicy:cachePolicy timeoutInterval:REQUEST_TIMEOUT];
+        request = [[NSURLRequest requestWithURL:requestURL cachePolicy:cachePolicy timeoutInterval:REQUEST_TIMEOUT] mutableCopy];
     } else if ([method isEqualToString:@"POST"]) {
         request = [[[NSMutableURLRequest alloc] initWithURL:requestURL cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:REQUEST_TIMEOUT] autorelease];
         [request setHTTPMethod:@"POST"];
@@ -203,9 +203,9 @@
     } else if ([response statusCode] == 200) {
         return YES;
     } else {
-        NSLog(@"[ERROR] Failed POST request to %@: response was %d %@",
+        NSLog(@"[ERROR] Failed POST request to %@: response was %ld %@",
               [request URL],
-              [response statusCode],
+              (long)[response statusCode],
               [NSHTTPURLResponse localizedStringForStatusCode:[response statusCode]]);
         return NO;
     }
@@ -224,9 +224,9 @@
     } else if ([response statusCode] == 200) {
         return data;
     } else {
-        NSLog(@"[ERROR] Failed GET request to %@: response was %d %@",
+        NSLog(@"[ERROR] Failed GET request to %@: response was %ld %@",
               [request URL],
-              [response statusCode],
+              (long)[response statusCode],
               [NSHTTPURLResponse localizedStringForStatusCode:[response statusCode]]);
         return nil;
     }
