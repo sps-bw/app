@@ -32,7 +32,6 @@
 		AB40047715B4B83000D87E2A /* PageTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB40045215B4B83000D87E2A /* PageTitleLabel.m */; };
 		AB40048115B4B90200D87E2A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB40048015B4B90200D87E2A /* MessageUI.framework */; };
 		AB40048315B4B90A00D87E2A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB40048215B4B90A00D87E2A /* libz.dylib */; };
-		AB40048515B4BB8B00D87E2A /* books in Resources */ = {isa = PBXBuildFile; fileRef = AB40048415B4BB8B00D87E2A /* books */; };
 		AB5D48D01609178900828D16 /* NewsstandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5D48CD1609176A00828D16 /* NewsstandKit.framework */; };
 		AB67F5BA16EE99B2005A04F6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67F5B916EE99B2005A04F6 /* Reachability.m */; };
 		AB67F5BC16EE9B79005A04F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB67F5BB16EE9B79005A04F6 /* SystemConfiguration.framework */; };
@@ -108,7 +107,6 @@
 		AB40045215B4B83000D87E2A /* PageTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTitleLabel.m; sourceTree = "<group>"; };
 		AB40048015B4B90200D87E2A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		AB40048215B4B90A00D87E2A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		AB40048415B4BB8B00D87E2A /* books */ = {isa = PBXFileReference; lastKnownFileType = folder; path = books; sourceTree = "<group>"; };
 		AB5D48CD1609176A00828D16 /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = System/Library/Frameworks/NewsstandKit.framework; sourceTree = SDKROOT; };
 		AB67F5B816EE99B2005A04F6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		AB67F5B916EE99B2005A04F6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
@@ -301,7 +299,6 @@
 		ABAFB57C15AB9A2E002FA498 = {
 			isa = PBXGroup;
 			children = (
-				AB40048415B4BB8B00D87E2A /* books */,
 				BF78D1AF180C8F070093DFBC /* BakerAssets.xcassets */,
 				AB40047B15B4B8B800D87E2A /* BakerShelf */,
 				AB40042915B4B83000D87E2A /* BakerView */,
@@ -422,7 +419,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB40048515B4BB8B00D87E2A /* books in Resources */,
 				BF78D1B0180C8F070093DFBC /* BakerAssets.xcassets in Resources */,
 				20CC551D16AD346900DEFB5C /* Localizable.strings in Resources */,
 				BF0785EB1794AF4000EB988E /* info in Resources */,
