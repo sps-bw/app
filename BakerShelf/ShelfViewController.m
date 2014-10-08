@@ -281,7 +281,11 @@
         image = [NSString stringWithFormat:@"%@", image];
     }
 
-    int bannerHeight = [ShelfViewController getBannerHeight];
+    int bannerHeight = 0;
+    
+    if ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)) {
+        bannerHeight = [ShelfViewController getBannerHeight];
+    }
 
     self.background.frame = CGRectMake(0, 0, width, height);
     self.background.image = [UIImage imageNamed:image];

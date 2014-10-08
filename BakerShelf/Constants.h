@@ -47,13 +47,13 @@
         // Mandatory - This constant defines where the JSON file containing all the publications is located.
         // For more information on this file, see: https://github.com/Simbul/baker/wiki/Newsstand-shelf-JSON
         // E.g. @"http://example.com/shelf.json"
-        #define NEWSSTAND_MANIFEST_URL @"http://spsblackandwhite.com/issues/shelf.json"
+        #define NEWSSTAND_MANIFEST_URL @"http://s3.spsblackandwhite.com/shelf.json"
 
         // ----------------------------------------------------------------------------------------------------
         // Optional - This constant specifies the URL to ping back when a user purchases an issue or a subscription.
         // For more information, see: https://github.com/Simbul/baker/wiki/Baker-Server-API
         // E.g. @"http://example.com/purchased"
-        #define PURCHASE_CONFIRMATION_URL @""
+        #define PURCHASE_CONFIRMATION_URL @"http://bw.alfo.im/confirmation"
 
         // ----------------------------------------------------------------------------------------------------
         // Optional - This constant specifies a URL that will be used to retrieve the list of purchased issues.
@@ -74,7 +74,7 @@
 
         // This constant identifies a free subscription.
         // E.g. @"com.example.MyBook.subscription.free"
-        #define FREE_SUBSCRIPTION_PRODUCT_ID @""
+        #define FREE_SUBSCRIPTION_PRODUCT_ID @"com.alexforey.black_and_white.subscriptions.free"
 
         // This constant identifies one or more auto-renewable subscriptions.
         // E.g.:
@@ -82,6 +82,7 @@
         //     @"com.example.MyBook.subscription.3months", \
         //     @"com.example.MyBook.subscription.6months", \
         //     nil]
+
         #define AUTO_RENEWABLE_SUBSCRIPTION_PRODUCT_IDS [NSArray arrayWithObjects: \
             nil]
 

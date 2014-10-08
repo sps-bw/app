@@ -54,6 +54,7 @@
 		BF0785EB1794AF4000EB988E /* info in Resources */ = {isa = PBXBuildFile; fileRef = BF0785EA1794AF4000EB988E /* info */; };
 		BF78D1B0180C8F070093DFBC /* BakerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF78D1AF180C8F070093DFBC /* BakerAssets.xcassets */; };
 		BFAB78D317B2A67E00E91ADE /* BakerAnalyticsEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAB78D217B2A67E00E91ADE /* BakerAnalyticsEvents.m */; };
+		CAFE21D919E4A8C60018000B /* newsstand-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFE21D819E4A8C60018000B /* newsstand-app-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +145,7 @@
 		BF78D1AF180C8F070093DFBC /* BakerAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = BakerAssets.xcassets; path = Baker/BakerAssets.xcassets; sourceTree = "<group>"; };
 		BFAB78D117B2A67E00E91ADE /* BakerAnalyticsEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BakerAnalyticsEvents.h; sourceTree = "<group>"; };
 		BFAB78D217B2A67E00E91ADE /* BakerAnalyticsEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BakerAnalyticsEvents.m; sourceTree = "<group>"; };
+		CAFE21D819E4A8C60018000B /* newsstand-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newsstand-app-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				BF78D1AF180C8F070093DFBC /* BakerAssets.xcassets */,
+				CAFE21D819E4A8C60018000B /* newsstand-app-icon.png */,
 				AB40047B15B4B8B800D87E2A /* BakerShelf */,
 				AB40042915B4B83000D87E2A /* BakerView */,
 				ABAFB59115AB9A2E002FA498 /* Baker */,
@@ -419,6 +422,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFE21D919E4A8C60018000B /* newsstand-app-icon.png in Resources */,
 				BF78D1B0180C8F070093DFBC /* BakerAssets.xcassets in Resources */,
 				20CC551D16AD346900DEFB5C /* Localizable.strings in Resources */,
 				BF0785EB1794AF4000EB988E /* info in Resources */,
