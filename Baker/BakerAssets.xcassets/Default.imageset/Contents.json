@@ -1,0 +1,28 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "filename" : "iPhone-Portrait-iOS7.png"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "filename" : "iPhone-Portrait-iOS7@2x.png"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "iPhone-Portrait-iOS7-R4.png",
+      "subtype" : "retina4",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
